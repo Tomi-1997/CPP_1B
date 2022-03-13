@@ -1,6 +1,6 @@
 #!/bin/bash
-
 source grade_utils
+export DEBUG=1
 TIMEOUT=10
 run_in_folder_if_exists "$1"
 

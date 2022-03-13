@@ -1,6 +1,6 @@
 #!make -f
 
-CXX=clang++-9
+CXX=clang++-9 -g3
 CXXFLAGS=-std=c++2a
 
 OBJECTS=mat.o
